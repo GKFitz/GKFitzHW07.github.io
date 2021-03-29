@@ -40,9 +40,16 @@ const questions = [{
     name: "Usage"
 }, {
     
-    type: "input",
+    type: "checkbox",
     message: "What license are you using? (example:...MIT)",
-    name: "License"
+    name: "License",
+    choices: [
+        "MIT",
+        "GNU GPLv3",
+        "BSD-3",
+        "Other",
+        "None"]
+    }
 }, {
     
     type: "input",
@@ -68,6 +75,12 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    inquirer.prompt(fillin)
+        .then(function(data) {
+            writeToFile("ReadMe.md", generatorMarkdownFile(data));
+        }
+
+
     
 
 }
