@@ -48,8 +48,9 @@ const questions = [{
         "GNU GPLv3",
         "BSD-3",
         "Other",
-        "None"]
-    }
+        "None"
+    ]
+    
 }, {
     
     type: "input",
@@ -66,16 +67,16 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(filename, data())
-    if(err) {
-        throw console.log(err)
+    fs.writeFile(filename, data, err => {
+        err ? console.log(err): console.log('Success');
     }
+    
 
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(fillin)
+    inquirer.prompt(fillIn)
         .then(function(data) {
             writeToFile("ReadMe.md", generatorMarkdownFile(data));
         }
