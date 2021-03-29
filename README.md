@@ -1,11 +1,7 @@
-# undefined
 
-GitHub: undefined(https://github.com/GKFitz)
-
-Email: undefined(gkf2103@gmail.com)
 
 ##Title
-sleeeeeep
+Gillian will never sleep
 
 ## Table of Contents
 * [Description]{#description}
@@ -16,7 +12,7 @@ sleeeeeep
 * [Test]{#test}
 
 ## Description
-nothing
+blah blah blah
 
 ## Installation Instruction
 to annoy me
@@ -29,3 +25,10 @@ juno and ginger
 
 ## Test
 undefined
+
+## Questions
+If anyone has any questions about this app, please contact me via GitHub or email:
+
+#GitHub: undefined(https://github.com/GKFitz)
+
+#Email: undefined(gkf2103@gmail.com)
