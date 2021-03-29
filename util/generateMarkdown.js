@@ -14,7 +14,35 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
-}
+GitHub: ${data.username}(https://github.com/GKFitz)
 
+Email: ${data.email}(gkf2103@gmail.com)
+
+##Title
+${data.Title}
+
+## Table of Contents
+* [Description]{#description}
+* [Installation]{#Installation}
+* [Usage]{#Usage}
+* [License]{#License}
+* [Contributors]{#contributors}
+* [Test]{#test}
+
+## Description
+${data.Description}
+
+## Installation Instruction
+${data.Usage}
+
+## License
+${data.License}
+
+## Contributors
+${data.Contributors}
+
+## Test
+${data.Test}
 module.exports = generateMarkdown;
+
+`;}
