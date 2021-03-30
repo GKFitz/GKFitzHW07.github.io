@@ -35,17 +35,16 @@ function licenseBadge(data) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-  ##Title 
+  return `##Title 
   ${data.Title}
 
-  ## Table of Contents
-* [Description]{#description}
-* [Installation]{#Installation}
-* [Usage]{#Usage}
-* [License]{#License}
-* [Contributors]{#contributors}
-* [Test]{#test}
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributors](#Contributors}
+* [Test](#Test)
 
 ## Description
 ${data.Description}

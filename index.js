@@ -49,16 +49,16 @@ const questions = [
     
     type: "input",
     message: "How do you test this app?",
-    name: "Testing"
+    name: "Test"
 }, {
     
     type: "input",
     message: "What is your GitHub username?",
-    name: "Username"
+    name: "username"
 }, {
     type: "input",
     message: "What is your email address?",
-    name: "Email"
+    name: "email"
 
 }
 ];
