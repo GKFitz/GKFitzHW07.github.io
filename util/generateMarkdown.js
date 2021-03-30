@@ -1,9 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   const licenseType = license[0];
-//   var licenseString = "";
-// }
+function renderLicenseBadge(license) {
+  if(license !== "none") {
+    return
+  }
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -15,8 +17,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return 
-`##Title
+  return `# ${data.Title}
+
+
+##Title
 ${data.Title}
 
 ## Table of Contents
@@ -34,6 +38,7 @@ ${data.Description}
 ${data.Usage}
 
 ## License
+This project is licensed under the ${data.License} license
 ${data.License}
 
 ## Contributors
@@ -45,9 +50,10 @@ ${data.Test}
 ## Questions
 If anyone has any questions about this app, please contact me via GitHub or email:
 
-#GitHub: ${data.username}(https://github.com/GKFitz)
+#GitHub: (https://github.com/${data.username})
 
-#Email: ${data.email}(gkf2103@gmail.com)
+#Email: ${data.email}
 `;}
+
 module.exports = generateMarkdown;
 

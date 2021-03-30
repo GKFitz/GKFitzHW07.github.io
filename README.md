@@ -1,7 +1,8 @@
+# Gillian still doesnt get to sleep
 
 
 ##Title
-Gillian will never sleep
+Gillian still doesnt get to sleep
 
 ## Table of Contents
 * [Description]{#description}
@@ -12,16 +13,17 @@ Gillian will never sleep
 * [Test]{#test}
 
 ## Description
-blah blah blah
+trying to go to sleep
 
 ## Installation Instruction
-to annoy me
+to drive me crazy
 
 ## License
+This project is licensed under the MIT license
 MIT
 
 ## Contributors
-juno and ginger
+juno
 
 ## Test
 undefined
@@ -29,6 +31,6 @@ undefined
 ## Questions
 If anyone has any questions about this app, please contact me via GitHub or email:
 
-#GitHub: undefined(https://github.com/GKFitz)
+#GitHub: (https://github.com/undefined)
 
-#Email: undefined(gkf2103@gmail.com)
+#Email: undefined

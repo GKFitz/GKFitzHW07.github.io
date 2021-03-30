@@ -6,7 +6,7 @@ const util =require('util')
 const generatorMarkdown = require("./util/generateMarkdown")
 
 // TODO: Create an array of questions for user input
-const questions = [ 
+const questions = ([ 
     {
     type: "input",
     message: "What is the title of the project?",
@@ -60,7 +60,7 @@ const questions = [
     name: "Email"
 
 }
-];
+]);
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -79,7 +79,7 @@ function init() {
     inquirer.prompt(questions)
         .then(function(data) {
             writeToFile("README.md", generatorMarkdown(data));
-            console.log("data")
+            console.log(data)
         })
 
 
