@@ -1,12 +1,13 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const util =require('util')
+const util =require('util');
+const path = require("path");
 
 const generatorMarkdown = require("./util/generateMarkdown")
 
 // TODO: Create an array of questions for user input
-const questions = ([ 
+const questions = [
     {
     type: "input",
     message: "What is the title of the project?",
@@ -33,8 +34,8 @@ const questions = ([
     choices: [
         "MIT",
         "GNU GPLv3",
-        "BSD-3",
-        "Other",
+        "Apache",
+        "Mozilla",
         "None"
     ]
     
@@ -60,7 +61,7 @@ const questions = ([
     name: "Email"
 
 }
-]);
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
