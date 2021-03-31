@@ -11,10 +11,10 @@ function licenseBadge(data) {
     licenseString = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)`
 
   };
-  if(licenseType === "Apache 2.0 License"){
+  if(licenseType === "Apache 2.0"){
     licenseString = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
   };
-  if(licenseType === "Mozilla Public License 2.0"){
+  if(licenseType === "Mozilla"){
     licenseString = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`
   };
  return licenseString

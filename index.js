@@ -34,7 +34,7 @@ const questions = [
     choices: [
         "MIT",
         "GNU GPLv3",
-        "Apache",
+        "Apache 2.0",
         "Mozilla",
         "None"
     ]
