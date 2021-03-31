@@ -1,8 +1,6 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util =require('util');
-const path = require("path");
 
 const generatorMarkdown = require("./util/generateMarkdown")
 
@@ -35,8 +33,8 @@ const questions = [
         "MIT",
         "GNU GPLv3",
         "Apache 2.0",
-        "Mozilla",
-        "None"
+        "Mozilla"
+    
     ]
     
 }, {
