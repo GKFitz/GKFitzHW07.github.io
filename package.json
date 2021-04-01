@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gillian's ReadMe Markdown Generator with Badges",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,15 @@
   "dependencies": {
     "inquirer": "^6.5.2",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GKFitz/GKFitzHW07.github.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/GKFitz/GKFitzHW07.github.io/issues"
+  },
+  "homepage": "https://github.com/GKFitz/GKFitzHW07.github.io#readme"
 }
